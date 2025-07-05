@@ -68,7 +68,7 @@ const projects = [
   {
     title: 'Portfolio Website',
     description: 'Personal portfolio built using Next.js, Tailwind CSS, Framer Motion, and dark mode.',
-    live: 'https://your-portfolio-live-link.com',
+    live: 'https://premrajeshr.vercel.app/',
     code: 'https://github.com/EngineerPrem/Next.js-Portfolio',
     image: '/portfolio.gif',
     learnMore: {
