@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-14 bg-white dark:bg-zinc-900 transition-colors dark: ">
       <div className="absolute top-[0px] left-[-100px] w-[300px] h-[300px] bg-purple-700 opacity-20 blur-3xl rounded-full"></div>
-      <div className="absolute bottom-[0px] right-[0px] w-[300px] h-[300px] bg-pink-500 opacity-20 blur-3xl rounded-full"></div>
+      <div className="absolute bottom-[-100px] right-[-50px] w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] bg-pink-500 opacity-20 blur-3xl rounded-full z-0 pointer-events-none hidden md:block"></div>
       {/* Left Text Section */}
       <motion.div
         initial={{ x: -60, opacity: 0 }}
